@@ -26,7 +26,7 @@ The learning algorithm uses these ideas from **evolution**:
 
 Starting from an initial, randomly generated population which plays the game until all instances have crashed, these evolutionary processes are combined to produce a subsequent new (and hopefully improved) generation so that, across multiple generations, the AI becomes very effective at playing the game.
 
-##~ Code snippet
+### Code snippet
 
 The most interesting section of the code to implement these general ideas, written by me with almost no research (and so admittedly basic but also transparent and simple): 
 
