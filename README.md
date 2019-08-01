@@ -9,8 +9,13 @@ It was a challenge for myself done in a little bit of spare time after 1st year 
 Give it a look and/or a run... it's satisfying to watch if nothing else!
 
 ## The network
-- The network has a fully connected 4-layer structure with [5,4,3,1] nodes in each layer going from the input layer to the output node.
-- The 'decision' of the network to jump or not jump for every frame cycle is interpreted by whether or not the output node's value is above 0.5 (on a scale of 0-1 given by the sigmoid function applied on each node). 
+- The network has a fully connected 4-layer structure with [5,4,3,1] nodes in each layer going from the input layer to the output node although many different shapes and sizes seem to work just fine.
+- The inputs (what the AI can 'see') are:
+  - the horizontal distance to the next gap
+  - the vertical distance to the top and bottom of the next gap (the gaps become narrower as more gaps have been passed)
+  - the horizontal speed of the game (which increases with each gap passed to make it get harder)
+  - the velocity at which the 'bird' itself is moving vertically
+- The 'decision' of the network to flap upwards or not flap for every frame cycle is interpreted by whether or not the output node's value is above 0.5 (on a scale of 0-1 given by the sigmoid function applied on each node). 
 
 ## The optimisation algorithm
 The learning algorithm uses these ideas from evolution:
