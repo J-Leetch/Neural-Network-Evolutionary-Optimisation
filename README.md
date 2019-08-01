@@ -1,4 +1,4 @@
-# Neural Network Evolutionary Optimisation
+# Evolutionary Optimisation Project
 A fun attempt at optimising a neural network for playing a simple game similar to 'flappy bird'- a classic example seen on YouTube. I created the game in Processing (python) and used just simple python code to implement the learning algorithms.
 
 ## Screenshot
