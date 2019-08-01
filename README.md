@@ -5,7 +5,7 @@ A fun attempt at optimising a neural network for playing a simple game similar t
 ## Screenshot
 ![alt text](https://github.com/J-Leetch/Neural-Network-Evolutionary-Optimisation/blob/master/screenshot.png)!
 
-It was a challenge for myself done in a little bit of spare time after 1st year exams to test out my new programming skills. It gave surprisingly good results considering its simplicity and that it was a first attempt, starting from zero knowledge and without using any machine learning libraries etc.
+It was a challenge for myself done in a little bit of spare time after 1st year exams to test out my new programming skills. The results were surprisingly good considering its simplicity and that it was a first attempt, starting from zero knowledge and without using any machine learning libraries etc.
 
 Give it a look and/or a run... it's satisfying to watch if nothing else! GeneticAlgorithmNeuralNetBirds.pyde holds all of the necessary code - all that you need is an installation of Processing 3 with the python mode.
 
