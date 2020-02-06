@@ -27,7 +27,7 @@ Starting from an initial, randomly generated population which plays the game unt
 
 ### Code snippet
 
-Below is the most interesting section of the code which implements these general ideas. It was written by me with almost no research and purely on intuition and so it is basic and unrefined but also transparent and simple, showing the principles clearly. 
+Below is the most interesting section of the code which implements these general ideas. It was written by me with almost no research and purely based on intuition, so it is basic and unrefined but also transparent and simple, showing the principles clearly. 
 
 ```python
 """Functions to implement an evolutionary algorithm in order to develop the birds"""
